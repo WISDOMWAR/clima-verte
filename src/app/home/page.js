@@ -1,0 +1,28 @@
+import "./styles.css"
+import Reclamation from "@/component/Reclamation";
+export default function Page() {
+    return(
+        <div className={"container"}>
+            <div className={"titlepa"}>
+                <div className={"title"}>
+                    <h1><span>Think positive</span>
+                        <span>about our Climate</span>
+                    </h1>
+                </div>
+                <div className="separator"></div>
+                <div className={"description"}>
+                    <p>
+                        Climate change refers to long-term alterations in the Earth's climate
+                        patterns, encompassing shifts in temperature, precipitation, and
+                        other atmospheric conditions.<br />
+                        Human activities, notably the burning of fossil fuels and deforestation,
+                        have significantly contributed to the increase in greenhouse gas
+                        concentrations, such as carbon dioxide, in the atmosphere.
+                    </p>
+
+                </div>
+            </div>
+        <Reclamation/>
+        </div>
+    )
+}
