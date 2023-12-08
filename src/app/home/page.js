@@ -28,9 +28,16 @@ export default function Page() {
             </div>
             <Store/>
             <Reclamation/>
-            <div>
-                
+            <div className={"descriptionElectrique"}>
+                <h1 className={"titleElectrique"}>
+                    Electric transportation aims to mitigate the environmental impact of the transportation sector.
+                </h1>
+                <p className={"pElectrique "}>
+                    By opting for electricity as the primary energy source, these vehicles contribute to reducing greenhouse gas emissions, thereby improving air quality and decreasing dependence on fossil fuels. This transition also promotes energy efficiency, drives technological innovation, and aligns with sustainable development goals by advocating for the use of renewable energy sources. Transportation methods, such as cycling or walking, can reduce the costs associated with owning and maintaining a motorized vehicle, while also contributing to better physical health. By favoring transportation modes that use less or no fossil fuels, there is a contribution to reducing dependence on non-renewable energy sources.
+                </p>
             </div>
+
+
         </div>
     )
 }

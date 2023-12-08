@@ -62,6 +62,7 @@ h1 span {
     position: absolute;
     align-self: center;
     align-items: center;
+
 }
 .reclamation_container{
     flex:1;
@@ -72,6 +73,7 @@ h1 span {
     left: 0;
     right: 0;
     padding-left: 55px;
+    margin-top: 400px;
 }
 .reclamation_title{
     margin-top: 40px;
@@ -229,7 +231,7 @@ h1 span {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .btnStore {
@@ -252,4 +254,35 @@ h1 span {
     font-weight: 600;
     line-height: normal;
     margin: 0;
+}
+
+.descriptionElectrique {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titleElectrique {
+    width: 1143px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pElectrique {
+    width: 1143px;
+    height: 489px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
