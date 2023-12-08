@@ -28,6 +28,9 @@ export default function Page() {
             </div>
             <Store/>
             <Reclamation/>
+            <div>
+                
+            </div>
         </div>
     )
 }
