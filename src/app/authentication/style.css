@@ -1,0 +1,123 @@
+/* Add these styles to your existing style.css or create a new CSS file */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .col-6 {
+    height: 100vh;
+  }
+  
+  .formulaire {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #fdfffe;
+    font-size: 16px;
+  }
+  
+  .facebook,
+  .google {
+    display: flex;
+    width: 100%;
+    max-width: 330px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 16px;
+    border: 1px solid #000;
+    background: #FFF;
+    text-align: center;
+    margin-left: 50px;
+  }
+  
+  .logface {
+    color: #000;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .dont {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  h2 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .btn-register {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-register:hover {
+    background-color: #218838;
+    animation: buttonHover 0.5s ease-in-out forwards;
+  }
+  
+  #registre {
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    animation: textFadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes textFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes buttonHover {
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
