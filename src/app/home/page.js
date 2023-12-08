@@ -1,8 +1,10 @@
 import "./styles.css"
 import Reclamation from "@/component/Reclamation";
 import Store from "@/component/Store";
+
 export default function Page() {
     return(
+
         <div className={"container"}>
             <div className={"titlepa"}>
                 <div className={"title"}>
