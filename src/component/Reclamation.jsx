@@ -2,7 +2,7 @@ export default function Reclamation () {
     return (
         <div className={"reclamation_container"}>
             <div className={"introduction"}>
-                <h1>Reclamation</h1>
+                <h1 className={"reclamation_title"}>Reclamation</h1>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="258" height="12" viewBox="0 0 258 12" fill="none">
                         <path d="M0 12L6.57923 0H258L253.301 12H0Z" fill="#257251"/>

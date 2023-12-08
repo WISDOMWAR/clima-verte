@@ -12,7 +12,7 @@ body{
     width: 1440px;
     height: 643px;
     flex-shrink: 0;
-    background: url("/imgsintro.png"), lightgray 50% / cover no-repeat;
+    background: url("../../../public/imgsintro.png"), lightgray 50% / cover no-repeat;
 
 }
 h1 {
@@ -26,13 +26,9 @@ h1 {
 }
 
 .titlepa{
-    color: #000;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Montserrat;
-    font-size: 16.177px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    width: 1440px;
+    height: 632.102px;
+    flex-shrink: 0;
 }
 
 h1 span {
@@ -46,6 +42,18 @@ h1 span {
     margin: 20px 0;
 }
 
+.description{
+    width: 573px;
+    height: 140px;
+    flex-shrink: 0;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 .reclamation_form {
     display: flex;
     flex-direction: column;
@@ -65,7 +73,9 @@ h1 span {
     right: 0;
     padding-left: 55px;
 }
-
+.reclamation_title{
+    margin-top: 40px;
+}
 .name,
 .LastName,
 .email,
@@ -140,16 +150,106 @@ h1 span {
     background: #418808;
 }
 
-.trottinet{
-    width: 311px;
-    height: 386px;
-    border-radius: 20px;
-    background:lightgray 50% / cover no-repeat;
-}
-
 .AI_Image{
     position: absolute;
     width: 526px;
     height: 357px;
     margin-left: 750px;
+}
+
+.product-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+
+}
+
+.product-container1 > div {
+    text-align: center;
+}
+
+.espace{
+    margin-bottom: 40px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-container1,
+.product-container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.product-container1 > div,
+.product-container2 > div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.trottinet,
+.windgoo,
+.scooter,
+.veloElectrique {
+    width: 311px;
+    height: 386px;
+    border-radius: 20px;
+    border: 1px solid #DFCECE;
+    background: lightgray 50% / cover no-repeat;
+    margin-bottom: 20px;
+}
+
+.prTrottinet,
+.prwindgoo,
+.prScooter,
+.prVeloElectrique {
+    width: 272px;
+    height: 247px;
+    color: #000;
+    text-align: center;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.btnStore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #418808;
+    cursor: pointer;
+}
+
+.textbtn {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
 }
