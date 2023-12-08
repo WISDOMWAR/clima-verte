@@ -1,0 +1,288 @@
+body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 2487px;
+    height: 1440px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.titlepa{
+    width: 1440px;
+    height: 643px;
+    flex-shrink: 0;
+    background: url("../../../public/imgsintro.png"), lightgray 50% / cover no-repeat;
+
+}
+h1 {
+    color: #181820;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Lora;
+    font-size: 45.497px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titlepa{
+    width: 1440px;
+    height: 632.102px;
+    flex-shrink: 0;
+}
+
+h1 span {
+    display: block;
+}
+
+.separator {
+    width: 458px;
+    height: 1.011px;
+    border-bottom: 2px solid  #E6E9EF;
+    margin: 20px 0;
+}
+
+.description{
+    width: 573px;
+    height: 140px;
+    flex-shrink: 0;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.reclamation_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    position: absolute;
+    align-self: center;
+    align-items: center;
+
+}
+.reclamation_container{
+    flex:1;
+    background: rgba(95, 155, 41, 0.75);
+    width: 100%;
+    height: 571px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-left: 55px;
+    margin-top: 400px;
+}
+.reclamation_title{
+    margin-top: 40px;
+}
+.name,
+.LastName,
+.email,
+.message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.labelname,
+.labelLastname,
+.labelemail,
+.labelmessage {
+    width: 117px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    padding-left: 30px;
+}
+
+.inputName,
+.inputLastName,
+.inputEmail {
+    width: 659px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    padding-left: 100px;
+}
+
+#inputMessage {
+    width: 659px;
+    height: 222px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
+.img{
+    background: lightgray 50% / contain no-repeat;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-right: 746px;
+    margin-top: 180px;
+    margin-left: 530px;
+}
+.btnSend {
+    width: 71px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    margin-right: 746px;
+    margin-top: 180px;
+    margin-left: 570px;
+    border-radius: 20px;
+    background: #418808;
+}
+
+.AI_Image{
+    position: absolute;
+    width: 526px;
+    height: 357px;
+    margin-left: 750px;
+}
+
+.product-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+
+}
+
+.product-container1 > div {
+    text-align: center;
+}
+
+.espace{
+    margin-bottom: 40px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-container1,
+.product-container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.product-container1 > div,
+.product-container2 > div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.trottinet,
+.windgoo,
+.scooter,
+.veloElectrique {
+    width: 311px;
+    height: 386px;
+    border-radius: 20px;
+    border: 1px solid #DFCECE;
+    background: lightgray 50% / cover no-repeat;
+    margin-bottom: 20px;
+}
+
+.prTrottinet,
+.prwindgoo,
+.prScooter,
+.prVeloElectrique {
+    width: 272px;
+    height: 247px;
+    color: #000;
+    text-align: center;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btnStore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #418808;
+    cursor: pointer;
+}
+
+.textbtn {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.descriptionElectrique {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titleElectrique {
+    width: 1143px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pElectrique {
+    width: 1143px;
+    height: 489px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

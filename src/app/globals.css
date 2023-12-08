@@ -18,10 +18,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+<<<<<<< HEAD
   background: linear-gradient(
       to bottom,
       rgb(var(--background-start-rgb)),
       transparent
     )
     rgb(var(--background-end-rgb));
+=======
+
+>>>>>>> 70c34fa776cfec68a9654767b9cdc7c1464ddcbf
 }
